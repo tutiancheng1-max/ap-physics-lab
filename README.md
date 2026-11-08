@@ -1,12 +1,8 @@
 # AP Physics Lab · 交互实验库
 
-[中文](#中文) · [English](#english)
+[![简体中文](https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-1f6f5c?style=for-the-badge)](README.md) [![English](https://img.shields.io/badge/Language-English-cfd8d3?style=for-the-badge)](README.en.md)
 
-**在线使用 / Open online:** https://tutiancheng1-max.github.io/ap-physics-lab/  ·  **English:** https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en
-
----
-
-## 中文
+**在线使用：** https://tutiancheng1-max.github.io/ap-physics-lab/
 
 面向 **AP Physics 2** 与 **AP Physics C: Electricity and Magnetism** 学生的交互模型库。共 49 个模型、220 个课堂任务，按 2024 年 College Board 课程框架（CED）的单元组织。打开网页即可使用，无需安装、无需登录。
 
@@ -64,62 +60,4 @@
 
 ---
 
-## English
-
-An interactive model library for **AP Physics 2** and **AP Physics C: Electricity and Magnetism** students: 49 models and 220 classroom tasks, organized by the units of the College Board 2024 Course and Exam Description (CED). It runs in the browser with nothing to install and no sign-in.
-
-### How to use
-
-1. Open https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en and pick a course (Physics 2 or C E&M) and a unit on the left.
-2. Choose a model at the top of the unit, then click a **Task** card. Each task sets up a specific scenario and asks you to predict something first.
-3. Write your prediction under "My prediction and evidence", then drag the orange handles in the scene or the sliders on the right and watch the readings and graphs change.
-4. Answer the check question below the task and click **Check answer** to see whether you are right and the correct answer (numeric answers allow ±2%). Each task's explanation is in **Experiment reasoning and physics** further down the page; open it after you have tried.
-5. To keep evidence, click **Record measurement** to save the current parameters, readings and prediction; **Export log** downloads a CSV you can hand in.
-
-### Features
-
-- **Hands-on scenes**: drag charges, probes, coils, lenses and closed curves directly; many models animate the process.
-- **Tasks with check questions**: every task has its own check question and explanation, with values different from the on-screen readings, so students have to reason and calculate.
-- **A/B comparison**: "Current parameters → A" stores a reference set to compare against after you change parameters.
-- **Circuit bench**: build DC, RC, LR and LC circuits freely, with an oscilloscope, loop-potential steps and 23 preset tasks.
-- **Beyond-syllabus content is labeled**: material outside the AP framework (displacement current, finite wires, etc.) is marked "extension".
-- **Three language modes**: the header button cycles 中 → 中+EN (Chinese with English terms) → EN (full English). Add `?lang=en` to any link to open it in English.
-- **Works on phones**: on narrow screens the scene scrolls sideways.
-- **Works offline**: download `index.html` from this repository and open it in a browser; everything works the same.
-
-### For teachers
-
-- Every model has a permanent link you can send to students, e.g. https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/maxwell
-- Every model name in the table below is a link; the number in parentheses is the task count.
-- Students' logs, answers and language choice stay in their own browser's local storage; the site collects no data. Logs are lost when students switch devices or clear browser data, so have them export the CSV for assignments.
-- `reference-figures.pdf` contains MATLAB reference curves for checking several models' numbers.
-- Please open an Issue in this repository for bugs or suggestions.
-
-### Contents
-
-### AP Physics 2
-
-| Unit | Title | Models (tasks) |
-|---|---|---|
-| 9 | Thermodynamics | [Gas processes · piston, heat and P–V diagram](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/9/thermo) (7); [Microscopic picture of a gas · pressure, temperature and speed](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/9/gas) (4); [Thermal contact · equilibrium temperature and energy transfer](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/9/thermalContact) (4) |
-| 10 | Electric Force, Field, and Potential | [Multi-charge field · probe and equipotentials](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/10/fields) (4); [Particle in a uniform electric field · trajectory and energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/10/electricMotion) (4); [Work by the electrostatic field · integral along two paths](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/10/potential) (4); [Capacitor · charge flow and energy bookkeeping](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/10/capacitor) (4); [Capacitor combinations · charge, voltage and stored energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/10/capacitorNet) (4) |
-| 11 | Electric Circuits | [Free-circuit bench](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/11/circuit) (23); [Resistivity · length and cross-sectional area](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/11/resistivity) (4) |
-| 12 | Magnetism and Electromagnetism | [Lorentz force · 3D orbit and velocity components](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/particle) (5); [Long straight wire · magnetic field and parallel wires](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/wireField) (3); [Current-carrying wire force · direction and magnitude](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/wireForce) (4); [Magnetic dipole · torque and potential energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/dipole) (3); [Coil crossing a magnetic field · stages and slopes](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/induction) (4); [Sliding rod on rails · induction and energy conservation](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/12/motional) (4) |
-| 13 | Geometric Optics | [Optics bench · imaging and screen](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/13/optics) (6); [Refraction and total internal reflection · critical-angle experiment](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/13/refraction) (3); [Apparent depth of an underwater object (cm)](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/13/depth) (3) |
-| 14 | Waves, Sound, and Physical Optics | [Wave boundary · incidence, reflection and transmission](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/boundary) (4); [Standing waves · traveling-wave superposition and resonance](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/standing) (4); [Standing waves in pipes · displacement and pressure](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/pipes) (4); [Polarizers · three-polarizer experiment](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/polarization) (4); [Diffraction grating · number of slits, slit spacing and envelope](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/diffraction) (4); [Thin-film interference · phase, amplitude, and reflectance spectrum](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/thin) (4); [Doppler effect · source and observer](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/14/doppler) (4) |
-| 15 | Modern Physics | [Photoelectric effect · stopping-potential experiment](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/photoelectric) (4); [Matter waves · electrons and photons](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/deBroglie) (3); [Blackbody radiation · peak and total power](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/blackbody) (3); [Compton scattering · energy and momentum bookkeeping](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/compton) (4); [Hydrogen energy levels and spectral lines](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/spectra) (5); [Radioactive decay · random events and half-life](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/decay) (4); [Nuclear reactions · atomic number, mass number and energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#ap2/15/nuclear) (4) |
-
-### AP Physics C: E&M
-
-| Unit | Title | Models (tasks) |
-|---|---|---|
-| 8 | Electric Charges, Fields, and Gauss's Law | [Gauss's law · flux through each patch of the sphere](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/8/gauss) (5); [Multi-charge field · probe and equipotentials](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/8/fields) (4); [Symmetric charge distributions · shape of E(r)](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/8/symmetry) (7); [Charged thin rod · kQ₀/R² is the field unit](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/8/rod) (3); [Flux and circulation · the common language of Maxwell's equations](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/8/fluxCirculation) (8) |
-| 9 | Electric Potential | [Work by the electrostatic field · integral along two paths](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/9/potential) (4); [Potential slope · kQ₀/R is the potential unit](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/9/potentialSlope) (3); [Potential of continuous charge · from segments to an integral](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/9/continuous) (4); [Particle in a uniform electric field · trajectory and energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/9/electricMotion) (4) |
-| 10 | Conductors and Capacitors | [Electrostatic induction · sphere radius R, charge q₀ as units](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/10/conductor) (3); [Conducting cavity · induced charge and grounding](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/10/shielding) (4); [Capacitor · charge flow and energy bookkeeping](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/10/capacitor) (4); [Capacitor combinations · charge, voltage and stored energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/10/capacitorNet) (4) |
-| 11 | Electric Circuits | [Free-circuit bench](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/11/circuit) (23); [Resistivity · length and cross-sectional area](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/11/resistivity) (4) |
-| 12 | Magnetic Fields and Electromagnetism | [Current-element superposition · ring and solenoid](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/biot) (4); [Long straight wire · magnetic field and parallel wires](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/wireField) (3); [Amperian loop · μ₀I₀ as integral unit](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/ampere) (3); [Ampère's law · symmetric magnetic field B(r)](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/ampereSymmetry) (4); [Lorentz force · 3D orbit and velocity components](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/particle) (5); [Current-carrying wire force · direction and magnitude](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/wireForce) (4); [Magnetic dipole · torque and potential energy](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/dipole) (3); [Flux and circulation · the common language of Maxwell's equations](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/12/fluxCirculation) (8) |
-| 13 | Electromagnetic Induction | [Coil crossing a magnetic field · stages and slopes](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/induction) (4); [Changing magnetic field · circulating induced electric field](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/inducedE) (3); [Two kinds of electric field · conservative and vortex](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/twoEFields) (4); [Sliding rod on rails · induction and energy conservation](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/motional) (4); [Rotating coil · flux and AC emf](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/generator) (4); [LR / LC bench](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/circuit) (23); [Flux and circulation · the common language of Maxwell's equations](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/fluxCirculation) (8); [Charging capacitor · Ampère–Maxwell law (extension)](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/displacement) (4); [Maxwell's equations · overview](https://tutiancheng1-max.github.io/ap-physics-lab/?lang=en#cem/13/maxwell) (5) |
-
----
-
-AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.
+AP® 是 College Board 的注册商标。College Board 与本网站无关，也未为其背书。
